@@ -1,0 +1,6 @@
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^surat\.harian\-nasional\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.surat\.harian\-nasional\.com$
+RewriteRule ^/?$ "http\:\/\/harian\-nasional\.com\/surat\." [R=301,L]
+
